@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.page{
+  background: linear-gradient(rgba(0, 77, 128, 0.705), rgba(0, 73, 128, 0.884)), url('/src/assets/bg.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detect-bg{
+  background: linear-gradient(rgba(0, 77, 128, 0.705), rgba(0, 73, 128, 0.884)), url('/src/assets/second.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
